@@ -1,14 +1,38 @@
-body {
-    background-color: #bba67b;
-    margin: 20px;
-    font-family: Arial, sans-serif;
+@font-face {
+    font-family: 'Bittledip Regular';
+    src: url('Bittledip Regular.otf') format('opentype');
+    font-weight: 400;
 }
-pre {
-    color: #663a11;
+
+body {
+    background-color: #bba3b2;
+    margin: 20px;
     font-family: Arial, sans-serif;
 }
 
 h1 {
-    color: #663a11;
-    font-family: Arial, sans-serif;
+    color: #58092a;
+    text-decoration-color: #470358;
+    font-style: oblique;
+    font-family: 'brush script mt', cursive;
+    font-weight: 300;
+    font-size: xx-large;
+}
+h2 {
+    color: #58092a;
+}
+p {
+    font-family: 'Bittledip Regular', serif;
+}
+hr {
+    border: 1px solid #58092a;
+    margin: 20px 0;
+}
+button {
+    background-color: #d3bdd8;
+    text-decoration-color: rgb(136, 1, 46) ;
+}
+img {
+    border: 2px solid #58092a;
+    border-radius: 8px;
 }
