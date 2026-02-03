@@ -150,7 +150,9 @@ footer {
     margin: 0 auto 20px;
     display: block;
     animation: floaty 3s ease-in-out infinite;
-
+}
+img {
+    animation: floaty 3s ease-in-out infinite;
 }
 @keyframes floaty {
     0%   { transform: translateY(0); }
@@ -258,3 +260,4 @@ background-color: #e2d0e7;
 }
 
 /* Horror Mode Styles will come here */
+
